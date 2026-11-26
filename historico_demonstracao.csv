@@ -1,0 +1,7 @@
+﻿borda;SR_entradas;SR_Q_anterior;SR_Q_novo;JK_entradas;JK_Q_anterior;JK_Q_novo;D_entradas;D_Q_anterior;D_Q_novo;T_entradas;T_Q_anterior;T_Q_novo
+1;10;0;1;11;0;1;1;0;1;1;0;1
+2;00;1;1;11;1;0;0;1;0;0;1;1
+3;01;1;0;10;0;1;1;0;1;1;1;0
+4;00;0;0;01;1;0;0;1;0;1;0;1
+5;11;0;X;00;0;0;1;0;1;0;1;1
+6;01;X;0;11;0;1;0;1;0;1;1;0

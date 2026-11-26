@@ -1,0 +1,41 @@
+﻿teste;esperado;obtido;resultado
+SR entrada=10, Q=0;1;1;APROVADO
+SR entrada=10, Q=1;1;1;APROVADO
+SR entrada=11, Q=0;"X";"X";APROVADO
+SR entrada=11, Q=1;"X";"X";APROVADO
+SR entrada=00, Q=0;0;0;APROVADO
+SR entrada=00, Q=1;1;1;APROVADO
+SR entrada=01, Q=0;0;0;APROVADO
+SR entrada=01, Q=1;0;0;APROVADO
+JK entrada=10, Q=0;1;1;APROVADO
+JK entrada=10, Q=1;1;1;APROVADO
+JK entrada=11, Q=0;1;1;APROVADO
+JK entrada=11, Q=1;0;0;APROVADO
+JK entrada=00, Q=0;0;0;APROVADO
+JK entrada=00, Q=1;1;1;APROVADO
+JK entrada=01, Q=0;0;0;APROVADO
+JK entrada=01, Q=1;0;0;APROVADO
+D entrada=0, Q=0;0;0;APROVADO
+D entrada=0, Q=1;0;0;APROVADO
+D entrada=1, Q=0;1;1;APROVADO
+D entrada=1, Q=1;1;1;APROVADO
+T entrada=0, Q=0;0;0;APROVADO
+T entrada=0, Q=1;1;1;APROVADO
+T entrada=1, Q=0;1;1;APROVADO
+T entrada=1, Q=1;0;0;APROVADO
+Alterar D não muda Q;0;0;APROVADO
+Subida captura D;1;1;APROVADO
+Clock alto constante não captura;1;1;APROVADO
+Descida conserva Q;1;1;APROVADO
+Novo pulso captura D;0;0;APROVADO
+Contagem de bordas;2;2;APROVADO
+SR proibido;"X";"X";APROVADO
+SR X permanece com 00;"X";"X";APROVADO
+SR recuperado por Reset;0;0;APROVADO
+Complemento de X;"X";"X";APROVADO
+Demonstração 1;[1,1,1,1];[1,1,1,1];APROVADO
+Demonstração 2;[1,0,0,1];[1,0,0,1];APROVADO
+Demonstração 3;[0,1,1,0];[0,1,1,0];APROVADO
+Demonstração 4;[0,0,0,1];[0,0,0,1];APROVADO
+Demonstração 5;["X",0,1,1];["X",0,1,1];APROVADO
+Demonstração 6;[0,1,0,0];[0,1,0,0];APROVADO
